@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-05-22T14:45:19Z" name="Admin Suite" finished-at="2020-05-22T14:45:50Z" duration-ms="30879">
+    <groups>
+    </groups>
+    <test started-at="2020-05-22T14:45:19Z" name="LoginTest" finished-at="2020-05-22T14:45:50Z" duration-ms="30879">
+      <class name="com_TestCase_Admin.CustomerSearchTest">
+        <test-method is-config="true" signature="Setup(java.lang.String)[pri:0, instance:com_TestCase_Admin.CustomerSearchTest@6107227e]" started-at="2020-05-22T14:45:19Z" name="Setup" finished-at="2020-05-22T14:45:28Z" duration-ms="8570" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="customerPageValidation()[pri:1, instance:com_TestCase_Admin.CustomerSearchTest@6107227e]" started-at="2020-05-22T14:45:28Z" name="customerPageValidation" finished-at="2020-05-22T14:45:40Z" duration-ms="12096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerPageValidation -->
+        <test-method signature="searchByemailValidation()[pri:2, instance:com_TestCase_Admin.CustomerSearchTest@6107227e]" started-at="2020-05-22T14:45:40Z" name="searchByemailValidation" finished-at="2020-05-22T14:45:45Z" duration-ms="4866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByemailValidation -->
+        <test-method signature="searchByName()[pri:3, instance:com_TestCase_Admin.CustomerSearchTest@6107227e]" started-at="2020-05-22T14:45:45Z" name="searchByName" finished-at="2020-05-22T14:45:49Z" duration-ms="4447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com_TestCase_Admin.CustomerSearchTest@6107227e]" started-at="2020-05-22T14:45:49Z" name="tearDown" finished-at="2020-05-22T14:45:50Z" duration-ms="856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com_TestCase_Admin.CustomerSearchTest -->
+    </test> <!-- LoginTest -->
+  </suite> <!-- Admin Suite -->
+</testng-results>
