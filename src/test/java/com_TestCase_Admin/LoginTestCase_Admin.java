@@ -22,7 +22,7 @@ public class LoginTestCase_Admin extends BaseClass_Admin   {
 		page.setEmail(email);
 		page.setPassword(pass);
 		page.clickLogin();
-		
+		System.out.println("Login sucessful");
 	}
 	@Test(priority=2)
 	public void pageTitleValidation() {
