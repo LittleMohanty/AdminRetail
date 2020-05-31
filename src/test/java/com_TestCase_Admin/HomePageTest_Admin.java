@@ -29,5 +29,8 @@ public class HomePageTest_Admin extends BaseClass_Admin {
 		soft1.assertTrue(home.logoutIsdisplay());
 		soft1.assertTrue(home.elementDisplayValidation());
 		soft1.assertAll();
+		//mu bhala
+				//mu git sikhili
+				//tike au dekhibi
 	}
 }
